@@ -1,6 +1,9 @@
-require 'multi_json/options'
-require 'multi_json/version'
-require 'multi_json/load_error'
+gem 'multi_json', '=1.11.2'
+require 'multi_json'
+# require 'multi_json/options'
+# require 'multi_json/version'
+# require 'multi_json/load_error'
+# require "multi_json/options_cache"
 
 module MultiJson
   include Options
